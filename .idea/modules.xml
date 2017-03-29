@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyFragmentTest.iml" filepath="$PROJECT_DIR$/MyFragmentTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_Listfragment/app_Listfragment.iml" filepath="$PROJECT_DIR$/app_Listfragment/app_Listfragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_filedemo/app_filedemo.iml" filepath="$PROJECT_DIR$/app_filedemo/app_filedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app_textview/app_textview.iml" filepath="$PROJECT_DIR$/app_textview/app_textview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybuttonselector/mybuttonselector.iml" filepath="$PROJECT_DIR$/mybuttonselector/mybuttonselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myviewpager/myviewpager.iml" filepath="$PROJECT_DIR$/myviewpager/myviewpager.iml" />
+    </modules>
+  </component>
+</project>
