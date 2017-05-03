@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.gao.bryan.myaidl">
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <!--著一句的意思就是，有該屬性的服務將在一個獨立的進程中運行了，加上「：remote」則，
+        進程名字將是這個App的進程名加：remot，另外，
+        這裡的「:remote」是可以寫別的的，不過大家都習慣於寫它了。-->
+        <service android:name=".Myservice"
+                    android:process=":remote">
+            <intent-filter>
+                <action android:name="com.gao.bryan.myaidl.Myservicr"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

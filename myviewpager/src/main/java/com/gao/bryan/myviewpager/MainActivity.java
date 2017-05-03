@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private ViewPager pager ;
     private List<View> list;
+    private static final String TAG = "Activity1 test";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(layout.inflate(R.layout.layout_one,null,false));
         list.add(layout.inflate(R.layout.layout_two,null,false));
         list.add(layout.inflate(R.layout.layout_there,null,false));
+        list.add(layout.inflate(R.layout.activity_main2,null,false));
         SimplePagerAdapter adapter = new SimplePagerAdapter();
         pager.setAdapter(adapter);
 
@@ -55,6 +58,42 @@ public class MainActivity extends AppCompatActivity {
             container.removeView(list.get(position));
         }
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(TAG,"onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(TAG,"onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(TAG,"onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(TAG,"onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG,"onDestroy");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(TAG,"onRestart");
     }
 
 }

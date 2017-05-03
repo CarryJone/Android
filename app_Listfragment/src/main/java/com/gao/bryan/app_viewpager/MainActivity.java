@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void bindview() {
         mdate = new ArrayList<>();
-        for(int i = 0;i<20;i++){
+        for(int i = 0;i<120;i++){
             mdate.add(new Date("新聞列表"+i,i+"新聞內容"));
         }
         textView = (TextView) findViewById(R.id.textView3);

@@ -11,8 +11,13 @@
             <option value="$PROJECT_DIR$/app_Listfragment" />
             <option value="$PROJECT_DIR$/app_filedemo" />
             <option value="$PROJECT_DIR$/app_textview" />
+            <option value="$PROJECT_DIR$/myaidl" />
+            <option value="$PROJECT_DIR$/myapitest" />
             <option value="$PROJECT_DIR$/mybuttonselector" />
+            <option value="$PROJECT_DIR$/mygridviewadapter" />
             <option value="$PROJECT_DIR$/mylambda" />
+            <option value="$PROJECT_DIR$/myokhttp" />
+            <option value="$PROJECT_DIR$/myview" />
             <option value="$PROJECT_DIR$/myviewpager" />
           </set>
         </option>

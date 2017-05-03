@@ -6,8 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/app_Listfragment/app_Listfragment.iml" filepath="$PROJECT_DIR$/app_Listfragment/app_Listfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_filedemo/app_filedemo.iml" filepath="$PROJECT_DIR$/app_filedemo/app_filedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app_textview/app_textview.iml" filepath="$PROJECT_DIR$/app_textview/app_textview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myaidl/myaidl.iml" filepath="$PROJECT_DIR$/myaidl/myaidl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapitest/myapitest.iml" filepath="$PROJECT_DIR$/myapitest/myapitest.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybuttonselector/mybuttonselector.iml" filepath="$PROJECT_DIR$/mybuttonselector/mybuttonselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mygridviewadapter/mygridviewadapter.iml" filepath="$PROJECT_DIR$/mygridviewadapter/mygridviewadapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylambda/mylambda.iml" filepath="$PROJECT_DIR$/mylambda/mylambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myokhttp/myokhttp.iml" filepath="$PROJECT_DIR$/myokhttp/myokhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myview/myview.iml" filepath="$PROJECT_DIR$/myview/myview.iml" />
       <module fileurl="file://$PROJECT_DIR$/myviewpager/myviewpager.iml" filepath="$PROJECT_DIR$/myviewpager/myviewpager.iml" />
     </modules>
   </component>

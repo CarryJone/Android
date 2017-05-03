@@ -13,4 +13,5 @@
         android:textColor="?attr/actionModeSplitBackground"
         android:textSize="30sp"
         tools:gravity="center_horizontal" />
+
 </LinearLayout>

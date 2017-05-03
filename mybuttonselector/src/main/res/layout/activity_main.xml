@@ -33,9 +33,9 @@
         android:onClick="onClick"
         android:text="內建相機" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/button_back" />
+        app:srcCompat="@drawable/image_type" />
 </LinearLayout>
